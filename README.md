@@ -10,7 +10,6 @@
 
 FAST is a  probabilistic factor analysis method for spatially-aware dimension reduction across multi-section spatial transcriptomics data. `FAST`  is also a package for  analyzing multiple spatially resolved transcriptomics (SRT) datasets, developed by the Jin Liu's lab. 
 
-Check out  our [Package Website](https://feiyoung.github.io/FAST/index.html) for a more complete description of the methods and analyses. 
 
 FAST  can be used to compare and contrast experimental datasets in a variety of contexts, for instance:
 
@@ -32,12 +31,7 @@ analysis, and visualization. Users can:
 # Installation
 "FAST" depends on the 'Rcpp' and 'RcppArmadillo' package, which requires appropriate setup of computer. For the users that have set up system properly for compiling C++ files, the following installation command will work.
 ```{Rmd}
-# Method 1: install FAST from CRAN
-install.packages('FAST')
 
-
-# For the newest version of FAST, users can use method 2 for installation.
-# Method 2: Install FAST from Github
 if (!require("remotes", quietly = TRUE))
     install.packages("remotes")
 remotes::install_github("feiyoung/FAST")

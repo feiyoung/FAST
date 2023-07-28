@@ -104,7 +104,7 @@ PRECASTObj@seulist
 ```
 
 
-## Fit PRECAST using simulated data
+## Fit FAST using simulated data
 
 
 ### Add the model setting
