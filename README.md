@@ -10,6 +10,7 @@
 
 FAST is a  probabilistic factor analysis method for spatially-aware dimension reduction across multi-section spatial transcriptomics data. `FAST`  is also a package for  analyzing multiple spatially resolved transcriptomics (SRT) datasets, developed by the Jin Liu's lab. 
 
+Check out  our [Package Website](https://feiyoung.github.io/FAST/index.html) for a more complete description of the methods and analyses. 
 
 FAST  can be used to compare and contrast experimental datasets in a variety of contexts, for instance:
 
