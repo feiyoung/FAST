@@ -412,7 +412,7 @@ FAST <- function(PRECASTObj, q= 15, fit.model=c("poisson", "gaussian")){
   XList <- lapply(PRECASTObj@seulist,  get_data, fit.model=fit.model)
   
   # PRECASTObj@resList$FAST <- list()
-  PRECASTObj@resList$FAST <- FAST_structure(XList, q= 15,  fit.model = fit.model, 
+  PRECASTObj@resList$FAST <- FAST_structure(XList, q= q,  fit.model = fit.model, 
                                           AdjList = PRECASTObj@AdjList, parameterList = PRECASTObj@parameterList)
   
   .logDiffTime(sprintf(paste0("%s Finish FAST"), "*****"), t1 = tstart, verbose = verbose)
